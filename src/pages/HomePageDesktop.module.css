@@ -1,0 +1,230 @@
+.frameParent,
+.navbarParent,
+.subContainerParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px;
+  max-width: 100%;
+}
+.frameParent,
+.subContainerParent {
+  flex-direction: row;
+}
+.subContainerParent {
+  flex-direction: column;
+}
+.footerLinkSet,
+.shape {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.footerLinkSet {
+  margin-left: -321px;
+  width: 301px;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.shape {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #ce7d63;
+}
+.footerLinkSet1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11.5px 0 0;
+}
+.footerLinkSet2,
+.shape1 {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.footerLinkSet2 {
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.shape1 {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #ce7d63;
+}
+.footerLinkSet3 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11.5px 0 0;
+}
+.footerLinkSet4,
+.shape2 {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.footerLinkSet4 {
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.shape2 {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #ce7d63;
+}
+.footerLinkSet5 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11.5px 0 0;
+}
+.footerLinkSet6,
+.shape3 {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.footerLinkSet6 {
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.shape3 {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #ce7d63;
+}
+.footerLinkSet7 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11.5px 0 0;
+}
+.footerLinkSet8,
+.shape4 {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.footerLinkSet8 {
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.shape4 {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background-color: #ce7d63;
+}
+.footerLinkSet9 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 11.5px 0 0;
+}
+.footerLinkSet10 {
+  width: 301px;
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+  display: inline-block;
+  flex-shrink: 0;
+  debug_commit: 1de1738;
+}
+.subContainer {
+  align-self: stretch;
+  border-radius: 12px;
+  background-color: #1a1a1a;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 211px;
+  gap: 20px;
+}
+.homePageDesktop,
+.subContainerGroup {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.subContainerGroup {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 20px;
+  color: #676765;
+  font-family: "Roboto Mono";
+}
+.homePageDesktop {
+  width: 100%;
+  position: relative;
+  background-color: #0f0f0f;
+  overflow: hidden;
+  align-items: flex-end;
+  padding: 30px 50px 50px 49px;
+  box-sizing: border-box;
+  gap: 120px;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1900px) {
+  .frameParent,
+  .subContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1425px) {
+  .homePageDesktop,
+  .subContainer {
+    padding-left: 105px;
+    padding-right: 105px;
+    box-sizing: border-box;
+  }
+  .homePageDesktop {
+    gap: 60px;
+    padding-left: 24px;
+    padding-right: 25px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .subContainer {
+    padding-left: 52px;
+    padding-right: 52px;
+    box-sizing: border-box;
+  }
+  .homePageDesktop {
+    gap: 30px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .footerLinkSet,
+  .footerLinkSet10,
+  .footerLinkSet2,
+  .footerLinkSet4,
+  .footerLinkSet6,
+  .footerLinkSet8 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .subContainer {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}

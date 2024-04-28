@@ -1,0 +1,192 @@
+.heading,
+.line {
+  align-self: stretch;
+}
+.heading {
+  position: relative;
+  font-size: 24px;
+  line-height: 150%;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.line {
+  height: 1px;
+  border-top: 1px solid #262626;
+  box-sizing: border-box;
+}
+.heading1,
+.line,
+.text {
+  position: relative;
+}
+.heading1 {
+  align-self: stretch;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.text {
+  flex: 1;
+  line-height: 150%;
+  display: inline-block;
+  max-width: 100%;
+}
+.container,
+.inputField {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputField {
+  border-radius: 10px;
+  background-color: #0f0f0f;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px;
+  box-sizing: border-box;
+  color: #676765;
+}
+.container {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.heading2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.text1 {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  max-width: 100%;
+}
+.container1,
+.inputField1 {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputField1 {
+  border-radius: 10px;
+  background-color: #0f0f0f;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px;
+  box-sizing: border-box;
+  color: #676765;
+}
+.container1 {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+.heading3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.text2 {
+  flex: 1;
+  position: relative;
+  line-height: 150%;
+  display: inline-block;
+  max-width: 100%;
+}
+.container2,
+.formElements,
+.inputField2 {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputField2 {
+  border-radius: 10px;
+  background-color: #0f0f0f;
+  flex-direction: row;
+  padding: 24px;
+  box-sizing: border-box;
+  min-height: 172px;
+  color: #676765;
+}
+.container2,
+.formElements {
+  flex-direction: column;
+  gap: 10px;
+}
+.formElements {
+  gap: 20px;
+  color: #f3dfd8;
+}
+.text3 {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.button,
+.form {
+  display: flex;
+  align-items: flex-start;
+}
+.button {
+  align-self: stretch;
+  border-radius: 12px;
+  background-color: #ce7d63;
+  flex-direction: row;
+  justify-content: center;
+  padding: 18px 20px;
+  text-align: center;
+  color: #0f0f0f;
+}
+.form {
+  width: 746px;
+  box-shadow: 10px 10px 50px rgba(0, 98, 255, 0.03);
+  border-radius: 14px;
+  background-color: #1a1a1a;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 60px;
+  box-sizing: border-box;
+  gap: 49.7px;
+  min-width: 746px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 18px;
+  color: #f9efec;
+  font-family: "Roboto Flex";
+}
+@media screen and (max-width: 1900px) {
+  .form {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 950px) {
+  .form {
+    gap: 25px;
+    padding: 39px 30px;
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading {
+    font-size: 19px;
+    line-height: 29px;
+  }
+  .form {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+  }
+}

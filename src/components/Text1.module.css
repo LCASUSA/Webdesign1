@@ -1,0 +1,12 @@
+.text {
+  flex: 1;
+  position: relative;
+  font-size: 18px;
+  line-height: 150%;
+  font-family: "Roboto Flex";
+  color: #b4b3b1;
+  text-align: left;
+  display: inline-block;
+  min-width: 70px;
+  white-space: nowrap;
+}

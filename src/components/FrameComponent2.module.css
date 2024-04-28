@@ -1,0 +1,64 @@
+.imageIcon,
+.imageIcon1 {
+  height: 426px;
+  flex: 1;
+  position: relative;
+  border-radius: 14px;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  min-width: 550px;
+}
+.testimonialAndImageLayout {
+  width: 1778px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 20px 18.1px;
+  min-height: 912px;
+  max-width: 100%;
+}
+.testimonialCards {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 20px;
+  font-size: 18px;
+  color: #b4b3b1;
+}
+.testimonialCards,
+.testimonialContent,
+.testimonialContentWrapper {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.testimonialContent {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 20px;
+  gap: 40px;
+}
+.testimonialContentWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 2px 0 1px;
+  text-align: left;
+  font-size: 48px;
+  color: #f9efec;
+  font-family: "Roboto Flex";
+}
+@media screen and (max-width: 950px) {
+  .imageIcon,
+  .imageIcon1 {
+    min-width: 100%;
+  }
+  .testimonialContent {
+    gap: 20px;
+  }
+}

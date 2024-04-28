@@ -1,0 +1,93 @@
+.heading,
+.icon {
+  position: relative;
+}
+.heading {
+  margin: 0;
+  width: 1531px;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.icon {
+  height: 28px;
+  width: 28px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button {
+  height: 68px;
+  width: 68px;
+  border-radius: 100px;
+  background-color: #1a1a1a;
+  border: 1px solid #262626;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 19px;
+}
+.text {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 109px;
+}
+.container,
+.subContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  font-size: 20px;
+  color: #b4b3b1;
+  font-family: "Roboto Mono";
+}
+.subContainer {
+  align-self: stretch;
+  border-radius: 16px;
+  background-color: #1a1a1a;
+  justify-content: space-between;
+  padding: 50px;
+  box-sizing: border-box;
+  row-gap: 20px;
+  max-width: 100%;
+  gap: 0;
+  text-align: left;
+  font-size: 48px;
+  color: #f9efec;
+  font-family: "Roboto Flex";
+}
+@media screen and (max-width: 1900px) {
+  .subContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1425px) {
+  .subContainer {
+    padding-left: 25px;
+    padding-right: 25px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 950px) {
+  .heading {
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading {
+    font-size: 29px;
+  }
+  .text {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}

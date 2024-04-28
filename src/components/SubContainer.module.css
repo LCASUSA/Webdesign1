@@ -1,0 +1,111 @@
+.heading,
+.paragraph {
+  position: relative;
+  line-height: 150%;
+}
+.heading {
+  margin: 0;
+  width: 1187px;
+  height: 87px;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.paragraph {
+  align-self: stretch;
+}
+.paragraphWrapper {
+  width: 1187px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 10px 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.icon,
+.text {
+  position: relative;
+}
+.text {
+  line-height: 150%;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 121px;
+}
+.icon {
+  height: 28px;
+  width: 28px;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 28px;
+}
+.button {
+  border-radius: 12px;
+  background-color: #0f0f0f;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 18px 34px;
+  gap: 7px;
+  white-space: nowrap;
+  text-align: center;
+  color: #f3dfd8;
+}
+.frameParent,
+.subContainer {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: -6px;
+  font-size: 18px;
+  color: #262626;
+}
+.subContainer {
+  border-radius: 20px;
+  background-color: #ce7d63;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 80px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 58px;
+  color: #0f0f0f;
+  font-family: "Roboto Flex";
+}
+@media screen and (max-width: 1900px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1425px) {
+  .subContainer {
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 950px) {
+  .heading {
+    font-size: 46px;
+    line-height: 70px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading {
+    font-size: 35px;
+    line-height: 52px;
+  }
+}

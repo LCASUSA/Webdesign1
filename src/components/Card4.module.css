@@ -1,0 +1,94 @@
+.heading,
+.paragraph {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.heading {
+  margin: 0;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: inherit;
+}
+.paragraph {
+  font-size: 18px;
+  color: #b4b3b1;
+}
+.textContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.icon {
+  height: 28px;
+  width: 28px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button {
+  height: 68px;
+  width: 68px;
+  border-radius: 100px;
+  background-color: #0f0f0f;
+  border: 1px solid #262626;
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px 19px;
+}
+.button,
+.card,
+.container {
+  display: flex;
+  justify-content: flex-start;
+}
+.container {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  color: #b4b3b1;
+}
+.card {
+  flex: 1;
+  border-radius: 14px;
+  background-color: #1a1a1a;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 40px;
+  box-sizing: border-box;
+  gap: 40px;
+  min-width: 322px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 30px;
+  color: #f9efec;
+  font-family: "Roboto Flex";
+}
+@media screen and (max-width: 950px) {
+  .heading {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .container {
+    flex-wrap: wrap;
+  }
+  .card {
+    gap: 20px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    box-sizing: border-box;
+  }
+}

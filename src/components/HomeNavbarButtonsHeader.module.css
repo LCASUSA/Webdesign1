@@ -1,0 +1,129 @@
+.logoIcon,
+.text {
+  position: relative;
+}
+.logoIcon {
+  height: 24px;
+  width: 129.7px;
+}
+.text {
+  line-height: 150%;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 87px;
+}
+.button {
+  border-radius: 12px;
+  background-color: #0f0f0f;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 18px 24px;
+}
+.text1 {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 55px;
+}
+.button1 {
+  border-radius: 12px;
+  background-color: #0f0f0f;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 18px 24px;
+}
+.text2 {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 76px;
+}
+.button2 {
+  border-radius: 12px;
+  background-color: #0f0f0f;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 18px 24px;
+}
+.text3 {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 55px;
+}
+.button3 {
+  border-radius: 12px;
+  background-color: #0f0f0f;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 18px 24px;
+}
+.text4 {
+  position: relative;
+  line-height: 150%;
+  text-transform: uppercase;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 109px;
+}
+.button4,
+.buttonsContainer,
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.button4 {
+  border-radius: 12px;
+  background-color: #ce7d63;
+  padding: 18px 24px;
+  white-space: nowrap;
+  color: #0f0f0f;
+}
+.buttonsContainer,
+.navbar {
+  gap: 16px;
+  max-width: 100%;
+}
+.navbar {
+  align-self: stretch;
+  border-radius: 16px;
+  background-color: #1a1a1a;
+  border: 1px solid #1c1c21;
+  box-sizing: border-box;
+  justify-content: space-between;
+  padding: 22px 24px 22px 50px;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  gap: 20px;
+  text-align: center;
+  font-size: 18px;
+  color: #81807e;
+  font-family: "Roboto Mono";
+}
+@media screen and (max-width: 1425px) {
+  .buttonsContainer {
+    display: none;
+  }
+  .navbar {
+    padding-left: 25px;
+    box-sizing: border-box;
+  }
+}

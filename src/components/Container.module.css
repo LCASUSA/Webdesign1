@@ -1,0 +1,25 @@
+.container,
+.itemsContainer {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  max-width: 100%;
+}
+.itemsContainer {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.container {
+  border-radius: 24px;
+  border: 2px solid #1f1f1f;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 17px 18px;
+  text-align: left;
+  font-size: 24px;
+  color: #f9efec;
+  font-family: "Roboto Flex";
+}

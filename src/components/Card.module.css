@@ -1,0 +1,105 @@
+.icon {
+  height: 34px;
+  width: 34px;
+  position: relative;
+}
+.iconContainer {
+  width: 66px;
+  border-radius: 12px;
+  background-color: #1f1f1f;
+  border: 1px solid #333;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 14px 15px;
+}
+.icon1 {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button,
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button {
+  height: 52px;
+  width: 52px;
+  border-radius: 100px;
+  background-color: #1f1f1f;
+  border: 1px solid #333;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  padding: 14px 13px;
+}
+.container {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: 20px;
+}
+.heading,
+.paragraph {
+  align-self: stretch;
+  position: relative;
+  line-height: 150%;
+}
+.heading {
+  margin: 0;
+  font-size: inherit;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-family: inherit;
+}
+.paragraph {
+  font-size: 18px;
+  color: #b4b3b1;
+}
+.card,
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.textContainer {
+  align-self: stretch;
+  gap: 12px;
+}
+.card {
+  flex: 1;
+  border-radius: 14px;
+  background-color: #1a1a1a;
+  padding: 40px;
+  box-sizing: border-box;
+  gap: 80px;
+  min-width: 273px;
+  max-width: 100%;
+  text-align: left;
+  font-size: 30px;
+  color: #f9efec;
+  font-family: "Roboto Flex";
+}
+@media screen and (max-width: 950px) {
+  .heading {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .container {
+    flex-wrap: wrap;
+  }
+  .heading {
+    font-size: 18px;
+    line-height: 27px;
+  }
+  .card {
+    gap: 40px;
+  }
+}
